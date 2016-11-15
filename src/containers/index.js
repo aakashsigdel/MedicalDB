@@ -16,7 +16,6 @@ class App extends Component {
 
   registerBackButtonAndroid = () => {
     if(Platform.OS === 'android') {
-      console.warn('register called', Platform.OS)
       BackAndroid.addEventListener('hardwareBackPress', function() {
         try {
           Actions.pop();

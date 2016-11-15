@@ -9,12 +9,11 @@ import Button from '../components/Button'
 
 const SearchBar = () =>
   <View style={styles.searchBarWrapper}>
-    <TextInput style={styles.searchBar}>
-      <Image
-        source={require('../../images/searchIcon.png')}
-        style={styles.searchIcon}
-      />
-    </TextInput>
+    <TextInput style={styles.searchBar} underlineColorAndroid={'transparent'} />
+    <Image
+      source={require('../../images/searchIcon.png')}
+      style={styles.searchIcon}
+    />
   </View>
 
 export default class SearchPage extends Component {
@@ -24,6 +23,7 @@ export default class SearchPage extends Component {
         <View />
         <SearchBar />
         <Button
+          onPress={() => {}}
           backgroundColor={'#A1DE93'}
           color={'#FFF'}
           title={'CATEGORIES'}
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFF',
     alignItems: 'flex-end',
     justifyContent: 'center',
-    paddingRight: 20,
+    paddingRight: 35,
     paddingLeft: 20,
     borderColor: 'rgba(0, 0, 0, 0.1)',
     borderWidth: 1,
@@ -57,7 +57,10 @@ const styles = StyleSheet.create({
     marginRight: 15
   },
   searchIcon: {
+    position: 'absolute',
     height: 18,
-    width: 18
+    width: 18,
+    right: 20,
+    top: 15
   },
 })
