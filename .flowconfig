@@ -23,6 +23,11 @@
 .*/Libraries/react-native/React.js
 .*/Libraries/react-native/ReactNative.js
 .*/node_modules/jest-runtime/build/__tests__/.*
+.*/node_modules/react-static-container/.*
+
+# this is needed as react-native-router-flux pulls the experimental
+# navigation as a separate package creating a conflicting decleration
+.*/node_modules/react-native-experimental-navigation/.*
 
 [include]
 
