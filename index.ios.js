@@ -3,7 +3,7 @@
  */
 
 import { AppRegistry } from 'react-native';
-import App from './src'
+import Root from './src'
 
 
-AppRegistry.registerComponent('MedicalDB', () => App);
+AppRegistry.registerComponent('MedicalDB', () => Root);

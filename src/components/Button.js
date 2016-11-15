@@ -35,6 +35,7 @@ class Button extends React.Component {
     color?: ?string,
     accessibilityLabel?: ?string,
     disabled?: ?boolean,
+    backgroundColor?: ?string
   };
 
   static propTypes = {

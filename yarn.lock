@@ -2036,9 +2036,9 @@ fleximap@0.9.x:
   version "0.9.9"
   resolved "https://registry.yarnpkg.com/fleximap/-/fleximap-0.9.9.tgz#826debb3fd5fb4c9865742425bfb7bdc66339db7"
 
-flow-bin:
-  version "0.35.0"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.35.0.tgz#63d4eb9582ce352541be98e6a424503217141b07"
+flow-bin@0.33.0:
+  version "0.33.0"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.33.0.tgz#ef011eace7a6100f1ae08b852db78279032b8750"
 
 for-in@^0.1.5:
   version "0.1.6"
