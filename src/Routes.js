@@ -1,11 +1,11 @@
 import React from 'react'
 import { Router, Scene } from 'react-native-router-flux'
-import Home from './containers/Home'
+import App from './containers'
 
 const Routes = () =>
     <Router>
         <Scene key='root'>
-            <Scene key='home' component={Home} />
+            <Scene key='app' component={App} hideNavBar />
         </Scene>
     </Router>
 
