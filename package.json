@@ -20,7 +20,12 @@
     "redux-thunk": "^2.1.0"
   },
   "jest": {
-    "preset": "jest-react-native"
+    "preset": "jest-react-native",
+    "collectCoverage": true,
+    "cacheDirectory": "./jest-cache",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/"
+    ]
   },
   "devDependencies": {
     "babel-jest": "17.0.0",
