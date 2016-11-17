@@ -27,7 +27,7 @@ const invariant = require('fbjs/lib/invariant');
  *
  */
 
-class Button extends React.Component {
+class Button extends Component {
 
   props: {
     title: string,
@@ -94,7 +94,7 @@ class Button extends React.Component {
 
     return (
       <Touchable
-        accessibilityComponentType="button"
+        accessibilityComponentType='button'
         accessibilityLabel={accessibilityLabel}
         accessibilityTraits={['button']}
         disabled={disabled}
