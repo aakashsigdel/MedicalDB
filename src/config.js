@@ -3,7 +3,7 @@ import { compose, applyMiddleware } from 'redux'
 
 let log = () => {}
 // FIXME this should be in store.js no here
-let enhance = applyMiddleWare(thunk)
+let enhance = applyMiddleware(thunk)
 
 if (__DEV__) {
     // code in this block is eliminated during

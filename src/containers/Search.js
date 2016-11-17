@@ -16,6 +16,9 @@ const SearchBar = () =>
     />
   </View>
 
+// const NavBar = () =>
+//   <View></View>
+
 export default class SearchPage extends Component {
   render () {
     return (
